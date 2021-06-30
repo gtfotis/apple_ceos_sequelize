@@ -1,0 +1,7 @@
+<h1>${data.name}</h1>
+<p>${data.name} was CEO of Apple Computers Inc. in ${data.first_year_active}.</p>
+
+<form action='./delete' method='POST'>
+    <input type='hidden' name='id' value='${data.id}' />
+    <button type='submit'>Remove ${data.name} from database</button>
+</form>
